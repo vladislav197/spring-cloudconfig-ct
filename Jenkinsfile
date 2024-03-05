@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Stage1') {
+    stage('Stage2') {
       agent any
       environment {
         Demo = '1'
