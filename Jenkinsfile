@@ -7,7 +7,7 @@ pipeline {
         Demo = '1'
       }
       steps {
-        sh 'echo "This is build $BUILD_NUMBER of demo $Demo"'
+        sh 'echo \'This is build $BUILD_NUMBER of demo $Demo\''
       }
     }
 
